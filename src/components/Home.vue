@@ -1,4 +1,6 @@
-<template><div>Home</div></template>
+<template>
+  <div class="body-wrapper">Home</div>
+</template>
 
 <script>
 export default {

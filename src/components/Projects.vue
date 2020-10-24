@@ -1,4 +1,4 @@
-<template>projects</template>
+<template><div>projects</div></template>
 
 <script>
 export default { name: "projects" };
