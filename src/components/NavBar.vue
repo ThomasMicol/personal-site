@@ -1,7 +1,7 @@
 <template>
-  <div class="nav">
-    <div class="link-wrapper">
-      <router-link class="route-link" to="/home">home</router-link>
+  <div class="nav" sticky-container>
+    <div class="link-wrapper" v-sticky>
+      <router-link class="route-link" to="/">home</router-link>
       <router-link class="route-link" to="/about">about</router-link>
       <router-link class="route-link" to="/projects">projects</router-link>
       <router-link class="route-link" to="/contact">contact</router-link>
