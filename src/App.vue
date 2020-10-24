@@ -1,21 +1,24 @@
 <template>
-  <NavBar></NavBar>
-  <div class="routerView">
-    <router-view v-slot="{ Component }">
-      <transition name="slide">
-        <component :is="Component"> </component>
-      </transition>
-    </router-view>
+  <div>
+    <NavBar></NavBar>
+    <div class="routerView">
+      <AppBody></AppBody>
+    </div>
+    <Footer></Footer>
   </div>
 </template>
 
 <script>
 import NavBar from "./components/NavBar.vue";
+import Footer from "./components/Footer.vue";
+import AppBody from "./components/AppBody.vue";
 
 export default {
   name: "App",
   components: {
     NavBar,
+    Footer,
+    AppBody,
   },
 };
 </script>
@@ -28,8 +31,16 @@ export default {
   text-align: center;
   color: #2c3e50;
 }
+
+.routerView {
+  width: 50em;
+  padding: 3em;
+  margin: 0 auto;
+  height: 122vh;
+}
+
 .slide-enter-active {
-  transition: all 0.3s ease-out;
+  transition: all 0.3s ease;
 }
 
 .slide-leave-active {
