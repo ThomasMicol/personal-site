@@ -19,7 +19,7 @@ export default {
 .nav {
   width: 100%;
   height: 7em;
-  background-color: #212227;
+  background-color: #3F88C5;
   display: grid;
 }
 
@@ -35,7 +35,7 @@ export default {
 }
 
 .route-link {
-  color: #d3d0cb;
+  color: #393E41;
   text-decoration: none;
   font-family: "DM Mono", monospace;
 }
