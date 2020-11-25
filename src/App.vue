@@ -24,13 +24,15 @@ export default {
 </script>
 
 <style lang="scss">
+@import "./assets/baseStyle.scss";
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #393e41;
-  background-color: $gradient-bottom;
+  color: $dark;
+  background-color: $light;
 }
 
 .routerView {
