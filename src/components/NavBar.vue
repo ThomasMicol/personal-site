@@ -15,11 +15,13 @@ export default {
 };
 </script>
 
-<style scoped>
+<style lang="scss">
+@import "../assets/baseStyle.scss";
+
 .nav {
   width: 100%;
   height: 7em;
-  background-color: #3F88C5;
+  background-color: $primary;
   display: grid;
 }
 
@@ -35,7 +37,7 @@ export default {
 }
 
 .route-link {
-  color: #393E41;
+  color: $dark;
   text-decoration: none;
   font-family: "DM Mono", monospace;
 }
