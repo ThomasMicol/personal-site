@@ -6,13 +6,11 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "dockerize-serve": "docker run -it -p 8080:8080 --rm --name personalsite thomasmicol/personalsite",
-    "webpack-serve": "webpack serve --open 8081"
+    "dockerize-serve": "docker run -it -p 8080:8080 --rm --name personalsite thomasmicol/personalsite"
   },
   "dependencies": {
     "core-js": "^3.6.5",
     "node-sass": "^5.0.0",
-    "sass-loader": "^10.0.5",
     "save": "^2.4.0",
     "vue": "^3.0.0",
     "vue-router": "^4.0.0-rc.1",
@@ -28,6 +26,8 @@
     "babel-eslint": "^10.1.0",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^7.0.0-0",
+    "sass": "^1.29.0",
+    "sass-loader": "^10.1.0",
     "vue-loader": "^15.9.3",
     "vue-parallax": "^1.1.1",
     "vue-template-compiler": "^2.6.12",
