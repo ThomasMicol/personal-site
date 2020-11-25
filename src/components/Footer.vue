@@ -8,12 +8,14 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss">
+@import "../assets/baseStyle.scss";
+
 .footer {
   width: 100%;
   height: 7em;
-  background-color: #44BBA4;
+  background-color: $secondary;
   display: grid;
-  color: #393E41;
+  color: $dark;
 }
 </style>
