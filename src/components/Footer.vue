@@ -1,5 +1,5 @@
 <template>
-  <div class="footer">Footer</div>
+  <div class="footer-container">Footer</div>
 </template>
 
 <script>
@@ -11,7 +11,7 @@ export default {
 <style lang="scss">
 @import "../assets/baseStyle.scss";
 
-.footer {
+.footer-container {
   width: 100%;
   height: 7em;
   background-color: $secondary;
