@@ -36,3 +36,7 @@ $gradient-bottom-right: linear-gradient(135deg, #f6f7ebff, #e94f37ff, #393e41ff,
 $gradient-top-left: linear-gradient(225deg, #f6f7ebff, #e94f37ff, #393e41ff, #3f88c5ff, #44bba4ff);
 $gradient-bottom-left: linear-gradient(315deg, #f6f7ebff, #e94f37ff, #393e41ff, #3f88c5ff, #44bba4ff);
 $gradient-radial: radial-gradient(#f6f7ebff, #e94f37ff, #393e41ff, #3f88c5ff, #44bba4ff);
+
+.grid{
+    display: grid;
+}
