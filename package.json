@@ -9,8 +9,6 @@
     "dockerize-serve": "docker run -it -p 8080:8080 --rm --name personalsite thomasmicol/personalsite"
   },
   "dependencies": {
-    "bootstrap": "^4.5.3",
-    "bootstrap-vue": "^2.19.0",
     "core-js": "^3.6.5",
     "node-sass": "^5.0.0",
     "save": "^2.4.0",
