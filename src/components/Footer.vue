@@ -23,6 +23,14 @@
 <script>
 export default {
   name: "Footer",
+  data: () => {
+    let asd = () => {
+      this.methods.assss();
+    };
+  },
+  methods: () => {
+    assss = () => {};
+  },
 };
 </script>
 
