@@ -9,7 +9,9 @@
     "dockerize-serve": "docker run -it -p 8080:8080 --rm --name personalsite thomasmicol/personalsite"
   },
   "dependencies": {
+    "axios": "^0.21.1",
     "core-js": "^3.6.5",
+    "inversify-props": "^2.2.6",
     "node-sass": "^5.0.0",
     "save": "^2.4.0",
     "vue": "^3.0.2",
