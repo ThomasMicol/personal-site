@@ -12,6 +12,7 @@
 import NavBar from "./components/NavBar.vue";
 import Footer from "./components/Footer.vue";
 import AppBody from "./components/AppBody.vue";
+import { container } from "inversify-props";
 
 export default {
   name: "App",
@@ -19,6 +20,12 @@ export default {
     NavBar,
     Footer,
     AppBody,
+  },
+  provide() {
+    return {
+      stockTickerService: () => { container.get<IStockTickerService>("stockTickerService") }
+        ,
+    };
   },
 };
 </script>

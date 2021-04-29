@@ -2,11 +2,12 @@ import { createApp } from 'vue'
 import App from './App.vue'
 import { createStore } from 'vuex'
 import { createRouter, createWebHistory } from 'vue-router'
-import Home from './components/Home.vue'
-import About from './components/About.vue'
-import Projects from './components/Projects.vue'
+import Home from './components/home/Home.vue'
+import About from './components/about/About.vue'
+import Projects from './components/projects/Projects.vue'
 import Sticky from 'vue-sticky-directive'
-import Contact from './components/Contact.vue'
+import Contact from './components/contact/Contact.vue'
+
 
 const store = createStore({
     devtools: true
