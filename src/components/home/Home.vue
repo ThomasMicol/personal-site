@@ -9,12 +9,18 @@
         This is some text for the home page component div 2
       </div>
     </div>
+    <StockTicker name="jeff"></StockTicker>
   </div>
 </template>
 
 <script>
+import StockTicker from "./stock-ticker/StockTicker";
+
 export default {
   name: "home",
+  components: {
+    StockTicker,
+  },
 };
 </script>
 

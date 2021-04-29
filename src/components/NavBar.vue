@@ -1,10 +1,10 @@
 <template>
   <div class="nav" sticky-container>
     <div class="link-wrapper" v-sticky>
-      <router-link class="route-link" to="/">home</router-link>
+      <router-link class="route-link" to="/">Thomas Micol</router-link>
+      <div></div>
       <router-link class="route-link" to="/about">about</router-link>
       <router-link class="route-link" to="/projects">projects</router-link>
-      <router-link class="route-link" to="/contact">contact</router-link>
     </div>
   </div>
 </template>
@@ -20,20 +20,20 @@ export default {
 
 .nav {
   width: 100%;
-  height: 7em;
+  height: 3em;
   background-color: $primary;
   display: grid;
 }
 
 .link-wrapper {
-  width: 70%;
+  width: 90%;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 2fr 4fr 1fr 1fr 1fr;
   place-self: center;
 }
 
 .route-link {
-  font-size: 2em;
+  font-size: 1.4em;
 }
 
 .route-link {
