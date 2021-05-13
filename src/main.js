@@ -1,3 +1,4 @@
+
 import { createApp } from 'vue'
 import App from './App.vue'
 import { createStore } from 'vuex'
@@ -7,7 +8,7 @@ import About from './components/about/About.vue'
 import Projects from './components/projects/Projects.vue'
 import Sticky from 'vue-sticky-directive'
 import Contact from './components/contact/Contact.vue'
-
+import './index.css'
 
 const store = createStore({
     devtools: true
